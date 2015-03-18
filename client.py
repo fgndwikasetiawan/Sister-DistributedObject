@@ -5,24 +5,6 @@ import threading
 import time
 from base64 import b64decode
 
-
-#if __name__=="__main__":
-#    dir = r'C:\Users\Wik\Documents\Kuliah\Sistem Terdistribusi\mini dataset'
-#    dir = raw_input("Direktori gambar: ")
-#    uri = raw_input("URI: ").strip()
-#
-#    server = Pyro4.Proxy(uri)
-#
-#    os.chdir(dir)
-#    f = open('barrier.png', 'rb')
-#    image = f.read()
-#    f.close()
-#    grayscale = server.rgb_to_grayscale(bytearray(image))
-#    f = open('azz.png', 'wb')
-#    f.write(b64decode(grayscale['data']))
-#    f.close()
-
-
 def kirim_gambar(daftarFile, r_object, jumlah, nama):
     daftarGambar = []
     n = 0

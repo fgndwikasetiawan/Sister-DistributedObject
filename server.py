@@ -32,7 +32,7 @@ def main():
     server = Server()
     Pyro4.Daemon.serveSimple(
             {
-                server: "example.warehouse"
+                server: "sister.converter"
             },
             host=alamat,
             port=port,
